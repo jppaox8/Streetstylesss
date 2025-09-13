@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StreetStyle</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="top-bar">
-      ¡Envíos gratis a alumnos del la San Martin de Porres!
-    </div>
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="game.js">
+</head>
+<body>
     <header>
-      <div id="menu-icon" class="menu-icon">☰</div>
+        <div id="menu-icon" class="menu-icon">☰</div>
       <h1>StreetStyles</h1>
       <nav id="menu" class="hidden">
         <ul>
@@ -24,16 +22,24 @@
         </ul>
       </nav>
     </header>
-     <main>
-      <div class="game-area">
-        <h1>Anime Game</h1>
-        <p>Haz clic en el boton para comenzar!</p>
-        <div class="game-container">
+    <main>
+         <div class="game-area">
+            <h1>Game Street</h1>
+            <p>haga click para comenzar</p>
+            <input
+          id="score-box"
+          type="text"
+          value="0"
+          readonly
+          style="width: 60px; margin-bottom: 10px; text-align: center"/>
+           <div class="game-container">
           <div class="game-player"></div>
         </div>
       </div>
     </main>
     <script src="script.js"></script>
     <script src="game.js"></script>
-  </body>
+         </div>
+    </main>
+</body>
 </html>
